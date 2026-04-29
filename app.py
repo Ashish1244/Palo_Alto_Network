@@ -261,7 +261,7 @@ fig5 = px.line(
     y="Engagement_Index",
     markers=True
 )
-fig5.update_traces(line_color="#32E41E")
+fig5.update_traces(line_color="#1EACE4")
 fig5.update_layout(**chart_theme)
 st.plotly_chart(fig5, use_container_width=True)
 
